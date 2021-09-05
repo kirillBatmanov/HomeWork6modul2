@@ -13,6 +13,7 @@
 		7317AB8426E3A8A300833111 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7317AB8226E3A8A300833111 /* Main.storyboard */; };
 		7317AB8626E3A8A400833111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7317AB8526E3A8A400833111 /* Assets.xcassets */; };
 		7317AB8926E3A8A400833111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7317AB8726E3A8A400833111 /* LaunchScreen.storyboard */; };
+		73F320BD26E4E467001DE044 /* MainColorizedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F320BC26E4E467001DE044 /* MainColorizedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7317AB8526E3A8A400833111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7317AB8826E3A8A400833111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7317AB8A26E3A8A400833111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73F320BC26E4E467001DE044 /* MainColorizedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainColorizedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				7317AB7E26E3A8A200833111 /* SceneDelegate.swift */,
 				7317AB8026E3A8A200833111 /* ViewController.swift */,
 				7317AB8226E3A8A300833111 /* Main.storyboard */,
+				73F320BC26E4E467001DE044 /* MainColorizedViewController.swift */,
 				7317AB8526E3A8A400833111 /* Assets.xcassets */,
 				7317AB8726E3A8A400833111 /* LaunchScreen.storyboard */,
 				7317AB8A26E3A8A400833111 /* Info.plist */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7317AB8126E3A8A200833111 /* ViewController.swift in Sources */,
+				73F320BD26E4E467001DE044 /* MainColorizedViewController.swift in Sources */,
 				7317AB7D26E3A8A200833111 /* AppDelegate.swift in Sources */,
 				7317AB7F26E3A8A200833111 /* SceneDelegate.swift in Sources */,
 			);
