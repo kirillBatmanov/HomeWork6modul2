@@ -96,5 +96,37 @@ class ViewController: UIViewController {
             }
         }
     }
+    
+    private func changeValue(for textFields: UITextField...) {
+       
+        textFields.forEach { textField in
+            switch textField {
+            case redTF:
+                redLabel.text = redTF.text
+                redSlider.value = Float(redTF.text ?? "") ?? 0
+                setColor()
+            case greenTF:
+                greenLabel.text = greenTF.text
+                greenSlider.value = Float(greenTF.text ?? "") ?? 0
+                setColor()
+            default:
+                blueLabel.text = blueTF.text
+                blueSlider.value = Float(blueTF.text ?? "") ?? 0
+                setColor()
+            }
+        }
+    }
+
 }
 
+extension ViewController: UITextFieldDelegate {
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesBegan(touches, with: event)
+        view.endEditing(true)
+    }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        changeValue(for: redTF, greenTF, blueTF)
+        return true
+    }
+    
+}
